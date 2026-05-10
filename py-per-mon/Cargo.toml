@@ -1,0 +1,12 @@
+[package]
+name = "py-per-mon"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ratatui = "0.26"
+crossterm = "0.27"
+sysinfo = "0.30"
+rusqlite = { version = "0.31", features = ["bundled"] }
+chrono = "0.4"
+anyhow = "1.0"
